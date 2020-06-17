@@ -7,6 +7,16 @@ namespace Carros010
         //Propriedades = características
         //Métodos = ações
 
+        //Propriedades
+        public string Cor { get; set; }
+
+        public string Categoria { get; set; }
+
+        public string Roda { get; set; }
+
+        public int Portas { get; set; }
+
+        //Métodos
         public void Andar()
         {
             Console.WriteLine("Carro Andando");
