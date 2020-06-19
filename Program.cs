@@ -6,6 +6,7 @@
         {
             var carro = new Carro();
 
+            carro.Cor = "Prata";
             carro.Ligar();
             carro.Andar();
         }
