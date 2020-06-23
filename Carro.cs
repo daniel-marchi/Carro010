@@ -19,7 +19,7 @@ namespace Carros010
         }
         public void Ligar()
         {
-            Console.WriteLine("Carro Ligado");
+            Console.WriteLine($"Carro {Cor} Ligado");
         }
     }
 }
